@@ -1,0 +1,1 @@
+export { renderTableFromJson } from "./Table";
