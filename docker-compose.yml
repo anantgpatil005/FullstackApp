@@ -1,0 +1,19 @@
+services:
+
+  configserver:
+    build: ./backend/config-server
+
+  configserver:
+    build: ./backend/service-registry
+    
+  user-service:
+    build: ./backend/user-service
+
+  user-service:
+    build: ./backend/user-service
+
+  gateway:
+    build: ./backend/api-gateway
+
+  frontend:
+    build: ./frontend
